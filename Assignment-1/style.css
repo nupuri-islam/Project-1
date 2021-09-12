@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: open-sans;
+}
+
+nav{
+    background: #282a35;
+    height: 80px;
+    width: 100%;
+}
+
+label.logo{
+    color: #fff;
+    font-size: 40px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+    margin-top: 14px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 50px;
+    margin: 0px 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 17px;   
+}
+
+a.active, a:hover{
+    color:#059862;
+    transition: 0.5s;
+}
+
+.sub-menu{
+    display: none;
+    margin: 140px;
+}
+
+nav ul li:hover .sub-menu{
+    display: block;
+    position: absolute;
+}
+
+.sub-menu ul {
+    margin-top: -142px;
+    margin-right: 69px;
+    margin-left: -141px;
+    background: #282a35;
+}
+/*..............*/
+form.form-1 {
+    margin-top: -421px;
+    margin-left: 208px;
+    margin-right: 516px;
+    background: #21769b57;
+    padding-left: 69px;
+    padding-right: 69px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.form-1 p {
+        margin: 10px;
+}
+
+.form-1 input{
+    width: 100%;
+    height: 30px;
+}
+.form-1 textarea{
+    width: 100%;
+}
+.form-1 button.submit {
+    width: 100px;
+    height: 30px;
+}
+
+video.hvdo {
+    width: 560px;
+}
+
+img.himage {
+    width: 560px;
+}
+
+.banner {
+    background: linear-gradient(rgb(6 236 66 / 48%), #1fa2efd6), url(media/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+}
+.banner-txt{
+    text-align: center;
+    color: #fff;
+    padding-top: 245px;
+}
+
+.banner-txt h1 {
+    font-size: 50px;
+}
+
+.banner-btn {
+    margin: -5px;
+    text-align: center;
+}
+.banner-btn a {
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    color: #fff;
+    border: none;
+    text-align: center;
+}
+ a.login {
+    background: #166fe5;
+}
+a.newacc {
+    background: #36a420;
+}
+h2.ah2 {
+    text-align: center;
+}
+.atable {
+    width: 100%;
+    border-collapse: collapse;
+}
+.atable td, .atable th{
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+.divider {
+    width: 300px;
+    height: 2px;
+    background-color: #fff;
+    display: inline-block;
+    margin-bottom: 12px;
+}

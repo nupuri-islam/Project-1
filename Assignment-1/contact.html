@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+         div{
+          background-image: url('img_girl.jpg');
+        }
+        
+    </style>
+</head>
+<body>
+
+    <nav>
+        <label for="" class="logo">Assignment One</label>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="#">SERVICES &#9662;</a>
+                <div class="sub-menu">
+                    <ul>
+                        <li><a href="film.html">FILM</a></li>
+                        <li><a href="photography.html">PHOTOGRAPHY</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a class="active" href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+
+
+    <div class="form-vrap">
+        <img src="media/contact.png" alt="" class="bg-img">
+    <form action="" class="form-1">
+        <p>
+            <label for="uname">YOUR NAME</label><br>
+            <input type="text" id="uname" name="uname" required>   
+        </p><p> 
+            <label for="email">YOUR EMAIL</label> <br>
+            <input type="text" required>  
+        </p><p>
+            <label for="subject">SUBJECT </label><br>
+            <input type="text" required> 
+        </p><p>
+            <label>YOUR MESSAGE (OPTIONAL)</label><br>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </p><p>
+            <button type="submit" class="submit" onclick="myFunction()">SUBMIT</button>
+        </p>
+        <p id="form-submit"></p>
+    </form>
+    
+    </div>
+<script src="function.js"></script>
+</body>
+</html>
